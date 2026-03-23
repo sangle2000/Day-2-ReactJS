@@ -5,7 +5,7 @@ export default function App() {
 
   return (
     <>
-      <h1>App</h1>
+      <h1>New App</h1>
       <p>{number}</p>
     </>
   );
