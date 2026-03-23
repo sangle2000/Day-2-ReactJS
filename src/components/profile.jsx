@@ -1,4 +1,5 @@
-export default function Profile() {
+export default function Profile({ name }) {
+  console.log(name);
   return (
     <div className="container">
       <img
@@ -7,7 +8,7 @@ export default function Profile() {
         width={120}
         height={120}
       />
-      <h3>Name</h3>
+      <h3>{name}</h3>
       <button className="visit-profile">Visit Profile</button>
     </div>
   );
