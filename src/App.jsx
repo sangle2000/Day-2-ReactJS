@@ -34,7 +34,7 @@ export default function App() {
       <div className="wrapper">
         {profiles.map((profile) => {
           // console.log(profile.name);
-          return <Profile key={profile.id} userName={profile.name} />;
+          return <Profile key={profile.id} name={profile.name} />;
         })}
       </div>
     </>
