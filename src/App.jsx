@@ -1,12 +1,17 @@
 import "./App.css";
+import Profile from "./components/Profile";
 
 export default function App() {
-  const number = 4;
-
   return (
     <>
-      <h1>New App</h1>
-      <p>{number}</p>
+      <div className="wrapper">
+        <Profile />
+        <Profile />
+        <Profile />
+        <Profile />
+        <Profile />
+        <Profile />
+      </div>
     </>
   );
 }
